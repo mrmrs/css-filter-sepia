@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "filter-sepia"
   ],
   "css-filter-sepia": {
     "type": "git",
