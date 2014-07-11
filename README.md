@@ -121,7 +121,7 @@ or download the css on github and include in your project.
 .sepia-99 { filter: sepia(99%); }
 .sepia-100 { filter: sepia(100%); }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .sepia-0-ns { filter: sepia(0); }
   .sepia-1-ns { filter: sepia(1%); }
   .sepia-2-ns { filter: sepia(2%); }
@@ -225,7 +225,7 @@ or download the css on github and include in your project.
   .sepia-100-ns { filter: sepia(100%); }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .sepia-0-m { filter: sepia(0); }
   .sepia-1-m { filter: sepia(1%); }
   .sepia-2-m { filter: sepia(2%); }
@@ -329,7 +329,7 @@ or download the css on github and include in your project.
   .sepia-100-m { filter: sepia(100%); }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .sepia-0-l { filter: sepia(0); }
   .sepia-1-l { filter: sepia(1%); }
   .sepia-2-l { filter: sepia(2%); }
