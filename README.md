@@ -9,13 +9,18 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-filter-sepia
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-filter-sepia)
+
 
 ## File Size
 
+15K filter-sepia.css
+12K filter-sepia.min.css
 
 ## The Code
 ```
