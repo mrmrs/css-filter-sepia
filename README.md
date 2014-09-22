@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-filter-sepia)
 ## File Size
 
 15K filter-sepia.css
-12K filter-sepia.min.css
+12K filter-sepia.min.css 
+1minified and gzipped
 
 ## The Code
 ```
