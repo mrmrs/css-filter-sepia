@@ -1,7 +1,7 @@
 {
   "name": "css-filter-sepia",
   "style": "filter-sepia.css",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "http://github.com/mrmrs/css-filter-sepia",
   "description": "Css module of single purpose classes for filter sepia",
   "keywords": [
