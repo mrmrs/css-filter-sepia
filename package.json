@@ -1,38 +1,44 @@
 {
   "name": "css-filter-sepia",
-  "style": "filter-sepia.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-filter-sepia",
-  "description": "Css module of single purpose classes for filter sepia",
+  "version": "2.0.0",
+  "description": "Functional CSS for filter-sepia",
+  "style": "dist/filter-sepia.css",
+  "main": "dist/filter-sepia.css",
+  "exports": {
+    ".": "./dist/filter-sepia.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "filter-sepia"
+    "filter-sepia",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-filter-sepia": {
+  "homepage": "https://github.com/mrmrs/css-filter-sepia",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-filter-sepia.git"
+    "url": "https://github.com/mrmrs/css-filter-sepia.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-filter-sepia/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-filter-sepia/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
