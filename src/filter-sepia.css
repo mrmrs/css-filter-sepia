@@ -104,7 +104,7 @@
 .sepia-99 { filter: sepia(99%); }
 .sepia-100 { filter: sepia(100%); }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .sepia-0-s { filter: sepia(0); }
   .sepia-1-s { filter: sepia(1%); }
   .sepia-2-s { filter: sepia(2%); }
@@ -208,7 +208,7 @@
   .sepia-100-s { filter: sepia(100%); }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .sepia-0-m { filter: sepia(0); }
   .sepia-1-m { filter: sepia(1%); }
   .sepia-2-m { filter: sepia(2%); }
@@ -312,7 +312,7 @@
   .sepia-100-m { filter: sepia(100%); }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .sepia-0-l { filter: sepia(0); }
   .sepia-1-l { filter: sepia(1%); }
   .sepia-2-l { filter: sepia(2%); }
